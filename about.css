@@ -1,0 +1,60 @@
+.hero__description{
+    width: 55%;
+}
+.hero__image{
+    width: 45%;
+    margin-left: 1500px;
+    margin-top: -300px; 
+    animation: rotation 5s infinite linear;
+}
+.info, .solution, .donate__section{
+    background: linear-gradient(to right, #4C0000ff, #000);
+    height: 60vh;
+}
+.donate__section{
+    height: 20vh;
+    text-align: center;
+    line-height: 40px;
+}
+.donate__header__text{
+    letter-spacing: 10px;
+    font-size: 24px;
+}
+.donate__button{
+    padding: 12px;
+    border-radius: 2px;
+    width: 200px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+}
+.donate__button:hover{
+    background: rgb(124, 36, 43);
+    transition: .5s;
+}
+
+.info__img{
+    width: 50%;
+    margin-top: -60px;
+    transform: rotate(180deg);
+}
+.solution__img{
+    float: right;
+    width: 40%;
+    transform: rotate(270deg);
+}
+.main__solution{
+    width: 50%;
+    margin-left: 100px;
+}
+.main__solution button{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 60px;
+    width: 70px;
+    background-color:rgba(238, 77, 90);
+    font-family: 'Raleway', sans-serif;
+}
