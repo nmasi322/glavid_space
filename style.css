@@ -38,10 +38,6 @@
 .navigation ul li a{
     text-decoration: none;
 }
-.navigation ul li a:hover{
-    border-bottom: 2px solid rgba(197, 196, 196, 0.712);
-    border: linear-gradient(to right, #fff, #0E0D23ff);
-}
 .hero__section{
     position: relative;
     top: 150px;
@@ -315,8 +311,7 @@
   }
   
   .list a:hover {
-    border-bottom: 2px solid red;
-    color: #4b134f;
+    border-bottom: 2px solid rgba(197, 196, 196, 0.712);
   }
   
   .menu_overlay .fas {
@@ -328,7 +323,7 @@
     z-index: 100;
   }
   .menu_overlay .fas:hover {
-    color: #4b134f;
+    cursor: pointer;
     transform: scale(1.1) rotate(180deg);
   }
   
@@ -352,6 +347,7 @@
   .fas {
     font-size: 2rem;
     color: #fff;
+    cursor: pointer;
   }
   
   .fa-bars{
