@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
 
-body{
+html, body{
     font-family: 'Raleway', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     box-sizing: border-box;
     color: #fff;
 }
@@ -13,6 +14,7 @@ body{
 }
 .title a{
     text-decoration: none;
+    color: #fff;
 }
 .hero{
     margin: 0px 100px;
@@ -435,6 +437,9 @@ body{
     .info {
         height: 115vh;
         margin-top: -120px;
+    }
+    .main__info{
+        margin-left: 10px;
     }
     .projject {
         height: 70vh;
